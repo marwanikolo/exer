@@ -16,7 +16,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "npm install yarn react-scripts build",
     "deploy": "chmod +x bin/deploy.sh && bin/deploy.sh"
   }
 }
